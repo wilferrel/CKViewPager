@@ -401,7 +401,7 @@ static const BOOL kFixLatterTabsPositions = NO;
     frame.size.width = self.tabWidth;
     tabView.frame = frame;
 
-    if (i < self.tabCount - 1) {
+    if (i < self.tabCount) {
       contentSizeWidth += CGRectGetWidth(tabView.frame) + self.padding;
     }
   }
